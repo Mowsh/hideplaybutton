@@ -1,0 +1,5 @@
+This is a hacky bash script that adds/removes the play button from the control strip, depending on whether Spotify is open.
+
+It's a launchd service and relies on fdautil (from launchcontrol) for osx full disk access.
+
+The launchd plist will need a manual edit to work on other machines.
